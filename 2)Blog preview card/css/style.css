@@ -1,0 +1,99 @@
+/* reset general */
+:root {
+  --yellow: #f4d04e;
+  --gray-950: #111111;
+  --gray-500: #6b6b6b;
+  --white: #ffffff;
+  font-size: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Figtree", sans-serif;
+  height: 100vh;
+  background: var(--yellow);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper-card {
+  width: 384px;
+  background: var(--white);
+  border-radius: 20px;
+  border: 1px solid var(--gray-950);
+  box-shadow: 8px 8px 0 0 var(--gray-950);
+}
+
+.card {
+  padding: 24px;
+}
+
+.card-img {
+  width: 100%;
+  margin-bottom: 24px;
+  border-radius: 10px;
+}
+
+.card-content {
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card-content span {
+  align-self: flex-start;
+  font-weight: 800;
+  font-size: 1.4rem;
+  line-height: 150%;
+  letter-spacing: 0rem;
+  padding: 0.4rem 1.2rem;
+  border-radius: 0.4rem;
+  background: var(--yellow);
+  color: var(--gray-950);
+}
+
+.card-content time {
+  font-size: 1.4rem;
+  line-height: 150%;
+  font-weight: 500;
+  color: var(--gray-950);
+}
+
+.card-content h1 {
+  font-size: 2.4rem;
+  line-height: 150%;
+  color: var(--gray-950);
+  font-weight: 800;
+}
+
+.card-content p {
+  font-size: 1.6rem;
+  line-height: 150%;
+  font-weight: 500;
+  color: var(--gray-500);
+}
+
+.card-footer {
+  display: flex;
+  align-items: center;
+}
+
+.card-footer img {
+  height: 32px;
+  width: 32px;
+  margin-right: 12px;
+}
+
+.card-footer p {
+  font-size: 1.4rem;
+  font-weight: 800;
+  line-height: 150%;
+  color: var(--gray-950);
+}
