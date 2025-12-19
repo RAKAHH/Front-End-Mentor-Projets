@@ -13,8 +13,67 @@
   box-sizing: border-box;
 }
 
+ul {
+  list-style: none;
+}
+
 body {
   min-height: 100vh;
   font-family: "Inter", sans-serif;
   background: var(--grey900);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 38rem;
+  padding: 4rem;
+  background: var(--grey800);
+  text-align: center;
+  border-radius: 0.8rem;
+}
+
+.card img {
+  width: 8.8rem;
+  border-radius: 100%;
+  margin-bottom: 2.4rem;
+}
+
+.card h1 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: var(--white);
+  margin-bottom: 0.8rem;
+}
+
+.card-green-text {
+  color: var(--green);
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 2.4rem;
+}
+
+.card-bio-text {
+  font-size: 1 4rem;
+  color: var(--white);
+  margin-bottom: 2.4rem;
+}
+
+.card ul li {
+  margin-bottom: 1.6rem;
+  padding: 2.2rem;
+  background: var(--grey700);
+  border-radius: 0.8rem;
+}
+
+.card ul li {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: white;
+}
+
+.card ul li:hover {
+  background: var(--green);
+  color: var(--grey700);
 }
