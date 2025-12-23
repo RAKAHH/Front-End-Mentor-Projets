@@ -9,15 +9,8 @@
 
 ## 🛠️ Technologies
 
-- HTML5 sémantique
-- CSS (Flexbox, Variables CSS)
-- Google Fonts (Figtree)
-
-## 📚 Ce que j'ai appris
-
-- Utilisation de `box-shadow` pour créer un effet d'ombre solide
-- Balise `<time>` pour les dates (meilleur SEO)
-- `align-self: flex-start` pour empêcher un élément de s'étirer dans un flex container
+- HTML5
+- CSS
 
 ## 🔗 Liens
 
