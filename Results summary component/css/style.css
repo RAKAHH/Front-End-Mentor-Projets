@@ -29,4 +29,136 @@
 body {
   font-family: "Hanken Grotesk", sans-serif;
   min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--paleblue);
+}
+
+ul {
+  list-style: none;
+}
+
+.card {
+  display: flex;
+  width: 60rem;
+}
+
+/* Partie gauche */
+
+.card-result {
+  width: 50%;
+  border-radius: 3rem 3rem 3rem 3rem;
+  padding: 4rem;
+  background: linear-gradient(
+    to bottom,
+    hsl(252, 100%, 67%),
+    hsl(241, 81%, 54%)
+  );
+  text-align: center;
+}
+
+.card-result h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--lightlavender);
+  margin-bottom: 3rem;
+}
+
+.card-result-cercle {
+  height: 18rem;
+  width: 18rem;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    to bottom,
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+  border-radius: 100%;
+  margin-bottom: 2.5rem;
+}
+
+.card-result-cercle .number-top {
+  font-size: 5.6rem;
+  font-weight: 800;
+  color: var(--white);
+}
+
+.card-result-cercle .number-bot {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: var(--lightlavender);
+}
+
+.card-result h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: var(--white);
+  margin-bottom: 1.5rem;
+}
+
+.card-result .description {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: var(--lightlavender);
+}
+/* Partie droite */
+
+.card-summary {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: var(--white);
+  border-radius: 0 3rem 3rem 0;
+  padding: 4rem;
+}
+
+.card-summary h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--darkgrayblue);
+}
+
+.card-summary ul {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.card-summary ul li {
+  padding: 1.6rem;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.card-summary ul .reaction {
+  color: var(--lightred);
+  background-color: color-mix(in srgb, var(--lightred) 5%, transparent);
+}
+
+.card-summary ul .memory {
+  color: var(--orangeyyellow);
+  background-color: color-mix(in srgb, var(--orangeyyellow) 5%, transparent);
+}
+
+.card-summary ul .verbal {
+  color: var(--greenteal);
+  background-color: color-mix(in srgb, var(--greenteal) 5%, transparent);
+}
+
+.card-summary ul .visual {
+  color: var(--cobaltblue);
+  background-color: color-mix(in srgb, var(--cobaltblue) 5%, transparent);
+}
+
+
+.card-summary button {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--white);
 }
