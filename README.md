@@ -12,7 +12,7 @@ Mon parcours d'apprentissage à travers les challenges [Frontend Mentor](https:/
 
 | Niveau    | Complétés | Total |
 | --------- | --------- | ----- |
-| 🟢 Newbie | 2         | 18    |
+| 🟢 Newbie | 4         | 18    |
 | 🟡 Junior | 0         | 8     |
 
 ---
@@ -21,11 +21,11 @@ Mon parcours d'apprentissage à travers les challenges [Frontend Mentor](https:/
 
 ### HTML & CSS
 
-- [x] [QR code component](./qr-code-component)
-- [x] [Blog preview card](./blog-preview-card)
-- [ ] Social links profile
+- [x] [QR code component]
+- [x] [Blog preview card]
+- [x] Social links profile
 - [ ] Results summary component
-- [ ] Product preview card component
+- [x] Product preview card component
 - [ ] NFT preview card component
 - [ ] Order summary component
 - [ ] Stats preview card component
