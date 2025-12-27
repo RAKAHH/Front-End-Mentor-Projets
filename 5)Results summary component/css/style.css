@@ -44,6 +44,8 @@ ul {
   flex-direction: row;
   width: 60rem;
   overflow: hidden;
+ box-shadow: 0 30px 60px rgba(61, 108, 236, 0.15);
+
 }
 
 /* Partie gauche */
@@ -131,6 +133,9 @@ ul {
   font-weight: 500;
   width: 100%;
   gap: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .card-summary ul li {
@@ -175,6 +180,7 @@ ul {
   );
   border: none;
   transition: background 0.3s ease;
+  cursor: pointer;
 }
 
 .card-summary button:hover {
@@ -183,4 +189,15 @@ ul {
     hsl(252, 100%, 67%),
     hsl(241, 81%, 54%)
   );
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.card-summary ul li > span {
+  color: var(--darkgrayblue);
+  font-weight: 700;
 }
