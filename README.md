@@ -24,7 +24,7 @@ Mon parcours d'apprentissage à travers les challenges [Frontend Mentor](https:/
 - [x] [QR code component]
 - [x] [Blog preview card]
 - [x] Social links profile
-- [ ] Results summary component
+- [x] Results summary component
 - [x] Product preview card component
 - [ ] NFT preview card component
 - [ ] Order summary component
