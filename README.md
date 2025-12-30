@@ -12,7 +12,7 @@ Mon parcours d'apprentissage à travers les challenges [Frontend Mentor](https:/
 
 | Niveau    | Complétés | Total |
 | --------- | --------- | ----- |
-| 🟢 Newbie | 4         | 18    |
+| 🟢 Newbie | 6         | 18    |
 | 🟡 Junior | 0         | 8     |
 
 ---
@@ -26,7 +26,7 @@ Mon parcours d'apprentissage à travers les challenges [Frontend Mentor](https:/
 - [x] Social links profile
 - [x] Results summary component
 - [x] Product preview card component
-- [ ] NFT preview card component
+- [x] NFT preview card component
 - [ ] Order summary component
 - [ ] Stats preview card component
 - [ ] 3-column preview card component
