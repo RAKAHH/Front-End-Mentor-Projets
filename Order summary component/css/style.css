@@ -1,0 +1,29 @@
+:root {
+  --blue50: hsl(225, 100%, 98%);
+  --blue100: hsl(225, 100%, 94%);
+  --blue700: hsl(245, 75%, 52%);
+  --blue950: hsl(223, 47%, 23%);
+  --gray600: hsl(224, 23%, 55%);
+
+  font-size: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: var(--blue50) url(../img/pattern-background-desktop.svg) no-repeat
+    top center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+button {
+  display: block;
+}
